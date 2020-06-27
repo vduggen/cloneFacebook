@@ -12,3 +12,10 @@ copy of facebook login screen, made with HTML and CSS.
   <li>Sass</li>
   <li>Javascript</li>
 </ul>
+
+# How to use
+<ol>
+  <li>Open terminal</li>
+  <li>git clone https://github.com/vduggen/cloneFacebook.git</li>
+  <li>cd cloneFacebook</li>
+</ol>
