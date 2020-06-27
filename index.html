@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./assets/phpThumb_generated_thumbnailico" type="image/ico" sizes="32x32">
+    <title>Facebook – entre ou cadastre-se</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <header id="header-up">
+        <article id="container-header">
+            <section class="esq">
+                <img src="assets/facebook-logo-1.png" alt="logo facebook" width="200"/>
+            </section>
+
+            <section class="dir">
+                <div class="inputs-container">
+                    <div class="input-container">
+                        <label for="email">Email ou telefone</label>
+                        <input type="email" name="email" id="email">
+                    </div>
+
+                    <div class="input-container">
+                        <label for="passwd">Senha</label>
+                        <input type="password" name="passwd" id="passwd">
+                        <a href="#">Esqueceu a conta?</a>
+                    </div>
+                </div>
+                
+                <button>Entrar</button>
+            </section>
+        </article>
+    </header>
+
+    <main id="body">
+        <article class="esq">
+            <section id="container-accounts">
+                <header>
+                    <h1>Login recentes</h1>
+                    <h3>Clique na sua foto ou adicione uma conta.</h3>
+                </header>
+
+                <main>
+                    <article class="container-cards">
+                        <section class="card">
+                            <img src="assets/profile.jpg" alt="profile" />
+                            <p>Vitor</p>
+                        </section>
+
+                        <section class="card">
+                            <i class="fa fa-plus-circle" aria-hidden="true"></i>
+                            <p>Adicionar Conta</p>
+                        </section>
+                    </article>
+                </main>
+            </section>
+        </article>
+
+        <article class="dir">
+            <section id="container-register">
+                <header>
+                    <h1>Criar uma nova conta</h1>
+                    <h3>É rápido e fácil.</h3>
+                </header>
+
+                <main>
+                    <section id="infos">
+                        <article class="inputs-container">
+                            <input type="text" name="nome" id="nome" placeholder="Nome">
+                            <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+                        </article>
+
+                        <input type="text" name="phoneEmail" id="phoneEmail" placeholder="Celular ou email">
+
+                        <input type="password" name="newPasswd" id="newPasswd" placeholder="Nova Senha">
+                    </section>
+
+                    <section id="birthday">
+                        <h4>Data de nascimento</h4>
+                        <select name="dayBirthday" id="dayBirthday">
+                            <option value="default">Dia</option>
+                        </select>
+
+                        <select name="monthBirthday" id="monthBirthday">
+                            <option value="default">Mês</option>
+                            <option value="default">Jan</option>
+                            <option value="default">Fev</option>
+                            <option value="default">Mar</option>
+                            <option value="default">Abr</option>
+                            <option value="default">Mai</option>
+                            <option value="default">Jun</option>
+                            <option value="default">Jul</option>
+                            <option value="default">Ago</option>
+                            <option value="default">Set</option>
+                            <option value="default">Out</option>
+                            <option value="default">Nov</option>
+                            <option value="default">Dez</option>
+                        </select>
+
+                        <select name="yearBirthday" id="yearBirthday">
+                            <option value="default">Ano</option>
+                        </select>
+                    </section>
+
+                    <section id="genero">
+                        <h4>Gênero</h4>
+                        <div class="inputs-container">
+                            <div class="input-container">
+                                <input type="radio" name="gen" id="fem">
+                                <label for="fem">Feminino</label>
+                            </div>
+
+                            <div class="input-container">
+                                <input type="radio" name="gen" id="masc">
+                                <label for="masc">Masculino</label>
+                            </div>
+
+                            <div class="input-container">
+                                <input type="radio" name="gen" id="personalizado">
+                                <label for="personalizado">Personalizado</label>
+                            </div>
+                        </div>
+                    </section>
+
+                    <p>
+                        Ao clicar em Cadastre-se, você concorda com nossos <span>Termos</span>, <span>Política de Dados</span> e <span>Política de Cookies</span>. Você pode receber notificações por SMS e pode cancelar isso quando quiser.
+                    </p>
+
+                    <button>Cadastre-se</button>
+
+                    <hr />
+
+                    <p>
+                        <span>Criar uma Página</span> para uma celebridade, banda ou empresa.
+                    </p>
+                </main>
+            </section>
+        </article>
+    </main>
+
+    <script src="scripts.js"></script>
+    <script src="https://use.fontawesome.com/7be2f30e8a.js"></script>
+</body>
+</html>

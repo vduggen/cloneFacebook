@@ -1,0 +1,222 @@
+#header-up {
+  width: 100%;
+  height: 16%;
+  background-color: #3D5A99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+#header-up #container-header {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+#header-up #container-header .dir {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+#header-up #container-header .dir .inputs-container {
+  display: flex;
+}
+#header-up #container-header .dir .inputs-container .input-container {
+  display: flex;
+  flex-direction: column;
+}
+#header-up #container-header .dir .inputs-container .input-container:first-child {
+  margin-right: 20px;
+}
+#header-up #container-header .dir .inputs-container .input-container label {
+  color: #fff;
+  font-family: sans-serif;
+  margin-bottom: 5px;
+}
+#header-up #container-header .dir .inputs-container .input-container a {
+  color: #9cb4d8;
+  text-decoration: none;
+  font: normal 0.9em sans-serif;
+  margin-top: 5px;
+}
+#header-up #container-header .dir button {
+  margin-left: 20px;
+  width: 70px;
+  height: 25px;
+  padding: 2px 6px;
+  border-radius: 2px;
+  line-height: 18px;
+  font: bold 0.9em sans-serif;
+  color: #fff;
+  background-color: #4267b2;
+  border: 1px solid #29487d;
+}
+#header-up #container-header .dir button:hover {
+  background-color: #365899;
+}
+
+#body {
+  height: auto;
+  background-color: #e9ebee;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+#body .esq {
+  color: #333;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+}
+#body .esq #container-accounts {
+  width: 389px;
+}
+#body .esq #container-accounts header {
+  margin: 20px 0;
+}
+#body .esq #container-accounts header h1 {
+  font: 600 2.5em sans-serif;
+  line-height: 6vh;
+}
+#body .esq #container-accounts header h3 {
+  font: 300 1.3em sans-serif;
+  line-height: 5vh;
+}
+#body .esq #container-accounts main .container-cards {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: row;
+  width: 100%;
+}
+#body .esq #container-accounts main .container-cards .card {
+  text-align: center;
+  z-index: 3;
+  border: 1px solid rgba(128, 128, 128, 0.507);
+  transition: all 0.3s;
+  border-radius: 4px;
+}
+#body .esq #container-accounts main .container-cards .card:hover {
+  box-shadow: 0 0 14px rgba(51, 51, 51, 0.527);
+}
+#body .esq #container-accounts main .container-cards .card p {
+  padding: 10px 0;
+  font: 500 1.1em sans-serif;
+  color: #3D5A99;
+  background: #fff;
+}
+#body .esq #container-accounts main .container-cards .card:last-child {
+  margin-left: 20px;
+}
+#body .esq #container-accounts main .container-cards .card:last-child i {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  font-size: 3em;
+  color: #3D5A99;
+  background: #f5f6f7;
+  width: 160px;
+  height: 160px;
+}
+#body .dir {
+  color: #333;
+}
+#body .dir #container-register {
+  width: 450px;
+}
+#body .dir #container-register header {
+  margin: 20px 0;
+}
+#body .dir #container-register header h1 {
+  font: 600 2.5em sans-serif;
+  line-height: 6vh;
+}
+#body .dir #container-register header h3 {
+  font: 300 1.3em sans-serif;
+  line-height: 5vh;
+}
+#body .dir #container-register main {
+  width: 100%;
+}
+#body .dir #container-register main #infos .inputs-container {
+  width: 100%;
+  display: flex;
+}
+#body .dir #container-register main #infos .inputs-container input {
+  width: 100%;
+}
+#body .dir #container-register main #infos .inputs-container input:first-child {
+  margin-right: 8px;
+}
+#body .dir #container-register main #infos input {
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #bdc7d8;
+}
+#body .dir #container-register main #infos input::placeholder {
+  font-size: 1.2em;
+  font-family: sans-serif;
+}
+#body .dir #container-register main #infos #phoneEmail {
+  width: 429px;
+  margin: 8px 0;
+}
+#body .dir #container-register main #infos #newPasswd {
+  width: 429px;
+}
+#body .dir #container-register main h4 {
+  color: #90949c;
+  font: bold 1.2em sans-serif;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  line-height: 3vh;
+}
+#body .dir #container-register main select {
+  height: 35px;
+  width: auto;
+}
+#body .dir #container-register main #genero {
+  width: 100%;
+}
+#body .dir #container-register main #genero .inputs-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+#body .dir #container-register main #genero .inputs-container .input-container label {
+  font-size: 1.3em;
+  font-family: sans-serif;
+}
+#body .dir #container-register p {
+  font: normal 1em sans-serif;
+  color: #90949c;
+  margin: 25px 0;
+}
+#body .dir #container-register p span {
+  color: #3D5A99;
+}
+#body .dir #container-register button {
+  min-width: 194px;
+  line-height: 23.94px;
+  height: 39px;
+  color: #fff;
+  font: bold 1.3em sans-serif;
+  background-color: #69a74e;
+  /* border: 2px solid #3b6e22 #3b6e22 #2c5115; */
+  box-shadow: inset 0 1px 1px #a4e388;
+  border-radius: 5px;
+  padding: 7px 20px;
+  border: none;
+}
+#body .dir #container-register hr {
+  margin-top: 25px;
+  background: gray;
+}
+
+/*# sourceMappingURL=style.css.map */
